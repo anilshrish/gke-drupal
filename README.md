@@ -50,10 +50,15 @@ kubectl get all
 kubectl get pods
 kubectl get svc
 kubectl get deployment
-
-
 kubectl scale deployment <app-name> --replicas=3
 
 kubectl delete service <service-name>
 gcloud compute forwarding-rules list
+
+# k8s destroy commands:
+kubectl delete service <service-name>
+
+kubectl delete deployments <deployment-name>
+
+gcloud container clusters delete cluster_name
 ```
