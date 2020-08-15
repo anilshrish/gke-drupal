@@ -62,3 +62,7 @@ kubectl delete deployments <deployment-name>
 
 gcloud container clusters delete cluster_name
 ```
+
+
+
+Just for test
